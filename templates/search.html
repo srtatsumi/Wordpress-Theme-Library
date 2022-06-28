@@ -1,0 +1,28 @@
+<!-- wp:group -->
+<div class="wp-block-group container navbar-container">
+    <!-- wp:template-part {"slug":"header","theme":"fitness","tagName":"header","className":"site-header navbar navbar-expand-lg navbar-light navbar-sticky navbar-stuck nav-area"} /-->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:query {"tagName":"main","layout":{"inherit":true}} -->
+<main class="wp-block-query">
+	<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search"} /-->
+	<!-- wp:spacer {"height":40} -->
+	<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+	<!-- wp:query-title {"type":"archive","style":{"spacing":{"margin":{"bottom":"60px"}}}} /-->
+	<!-- wp:post-template -->
+	<!-- wp:template-part {"slug":"query"} /-->
+	<!-- /wp:post-template -->
+	<!-- wp:group {"layout":{"inherit":true}} -->
+	<div class="wp-block-group">
+		<!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between"}} -->
+		<!-- wp:query-pagination-previous /-->
+		<!-- wp:query-pagination-next /-->
+		<!-- /wp:query-pagination -->
+		</div>
+	<!-- /wp:group -->
+</main>
+<!-- /wp:query -->
+
+<!-- wp:template-part {"slug":"footer","theme":"fitness","tagName":"footer","className":"footer-area"} /-->
